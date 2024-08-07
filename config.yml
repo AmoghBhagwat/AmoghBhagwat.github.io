@@ -1,0 +1,37 @@
+baseURL: ""
+languageCode: en-us
+title: Amogh Bhagwat
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    subtitle: "Junior Undergraduate at IIT Kanpur"
+    imageUrl: "profile_pic.png"
+    imageWidth: 200
+    imageHeight: 200
+
+  socialIcons:
+    - name: "Email"
+      url: "mailto:bhagwata22@iitk.ac.in"
+    - name: "Instagram"
+      url: "https://www.instagram.com/amoghb204/"
+    - name: "Linkedin"
+      url: "https://in.linkedin.com/in/amoghbhagwat"
+    - name: "GitHub"
+      url: "https://github.com/AmoghBhagwat"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: "/"
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: "/posts/"
+      weight: 2
+    - identifier: resume
+      name: Resume
+      url: "https://drive.google.com/file/d/1fO5WrP7wF-XPmB3mQrcpx_pf8gICBBU0/view?usp=sharing"
+      weight: 3
